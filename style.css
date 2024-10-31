@@ -1,0 +1,77 @@
+
+.redClass {
+	background-color: red;
+}
+
+.greenclass {
+	background-color: green;
+}
+
+.yellowclass {
+	background-color: yellow;
+}
+
+.myclass2{
+	background-image:url("img.JPG");
+	width:100%;
+	height:120px;
+	border: solid 1px black;
+}
+
+.myclass3{
+	background-image:url("img.JPG");
+	background-repeat: repeat-y;
+	width:100%;
+	height:120px;
+	border: solid 1px black;
+}
+
+.myclass4{
+	background-image:url("img.JPG");
+	background-repeat: repeat-y;
+	background-position: right top;
+	width:100%;
+	height:120px;
+	border: solid 1px black;
+}
+
+.myclass5{
+	background-image:url("img.JPG");
+	background-repeat: no-repeat;
+	background-position: right top;
+	width:100%;
+	height:120px;
+	border: solid 1px black;
+}
+
+div{
+	border: 1px solid white;
+	height: 30px;
+	width: 100px;
+	color: white;
+    background-color: blue;
+}	
+#mek{
+	border-radius: 15px 15px 0px 0px;
+}
+
+#dwa{
+	border-radius: 0px 15px 0px 20px;
+}
+
+
+.Volkswagen{
+	background-image:url("img.JPG");
+	width: 180px;
+	height:200px;
+	border: solid 1px black;
+}
+
+
+
+.pre-tab {
+    white-space: pre; /* Сохраняем изначальное форматирование */
+}
+
+
+

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+	    <title> Այլ տեղեկություններ </title>
+		 <meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+	<body>
+
+	<p class="myclass2">Պարագրաֆ</p>
+	<p class="myclass3">Պարագրաֆ</p>
+	<p class="myclass4">Պարագրաֆ</p>
+	<p class="myclass5">Պարագրաֆ</p>
+
+
+	</body>
+	
+</html>

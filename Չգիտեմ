@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+	    <title> Իմ սիրած և ոչ սիրաց առարկաներ </title>
+		 <meta charset="UTF-8">
+	</head>
+	<body>
+	<form> 
+	<form>
+ <fieldset>
+  <legend>Անձնական տվյալներ</legend>
+  Անուն: <input type="text" name="firstname"> <br><br>
+    Ազգանուն: <input type="text" name="lastname"> <br><br>
+	Հայրանուն <input type="email" name="myEmail"><br><br>
+	Տարիք:  <input type="Password" name="myPassword"> <br> <br>
+	Սեռը: <select>
+          <option value="volvo">Արական</option>
+          <option value="saab">Իգական</option>
+          </select> <br> <br>
+ </fieldset>
+    </form>
+	
+	<form>
+	<fieldset>
+  <legend>Մուտքի և կոնտակտ տվյալներ</legend>
+    Մուտքի անուն: <input type="text" name="Login Name"> <br><br>
+    Գաղտնաբառ: <input type="text" name="Password"> <br><br>
+	Էլ․Փոստ: <input type="email" name="myEmail"><br><br>
+	Հեռախոսահամար: <input type="Password" name="myPhone number"> <br> <br>
+	Ո՞ր երկրից եք: <select>
+          <option value="volvo">Հայաստան</option>
+          <option value="saab">Ռուսաստան</option>
+		  <option value="saab">Վրաստան</option>
+          </select> <br> <br>
+ </fieldset>
+ </form>
+ 
+ <form>
+	<fieldset>
+  <legend>Այլ Տվյալներ</legend> 
+	
+	<input type="checkbox" name="know" value="HTML" > HTML <br>
+	<input type="checkbox" name="know" value="CSS" > CSS <br>
+	<input type="checkbox" name="know" value="Javascript"> Javascript <br>
+	<input type="checkbox" name="know" value="JQuery" > JQuery <br>
+	<input type="checkbox" name="know" value="AJAX" > AJAX <br>
+	<input type="checkbox" name="know" value="PHP"> PHP <br>
+	<input type="checkbox" name="know" value="PHP"> MySQL <br>
+ </fieldset>
+ </form>
+ 
+ 
+ <form>
+	<fieldset>
+  <legend>Ինչու՞ եք ցանկանում գրանցվել այս կայքում</legend>
+    
+	     <textarea rows="4" cols="50">	
+	     </textarea>
+		 </fieldset>
+    </form>
+	
+	<form>
+	<fieldset>
+  <legend>Նախընտրելի լեզուն</legend>
+   <select>
+  <optgroup label="Իրական լեզուներ">
+    <option value="Հայերեն">Հայերեն</option>
+    <option value="Անգլերեն">Անգլերեն</option>
+	<option value="Ռուսերեն">Ռուսերեն</option>
+	<option value="Պորտուգալերեն">Պորտուգալերեն</option>
+  </optgroup>
+  <optgroup label="Արհեստական լեզուներ">
+    <option value="Էսպերանտո">Էսպերանտո</option>
+    <option value="բեյսիք ինգլիշ">բեյսիք ինգլիշ</option>
+  </optgroup>
+  <optgroup label="Հեքիաթային լեզուներ">
+    <option value="Էլֆերեն">Էլֆերեն</option>
+    <option value="Գնոմերեն">Գնոմերեն</option>
+  </optgroup>
+  </fieldset>
+  </form>
+</select>
+ 
+	</body>
+	
+</html>
